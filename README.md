@@ -3,6 +3,12 @@
 ### Brisbane Australia
 
 ------
+This is an experimental system comprising 
+- Asset management, 
+- reporting, 
+- tracking, 
+- machine learning and 
+- statistical process control over a distributed network.
 
 A development stack proposed for C3I that include web sockets, RxJS
 , React, jQuery 2.x, AJaJ, Bootstrap.
