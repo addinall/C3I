@@ -11,8 +11,7 @@
 //
 // -------------------------------
 //
-
-namespace usmApp;
+namespace c3iApp;
 
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
