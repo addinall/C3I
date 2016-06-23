@@ -143,15 +143,6 @@ This is reflected in the time to implement.
 
 Three man weeks.
 
-##  Application Build.
-
-With two software engineers on the re-build it is envisaged that the work in items 1-8 can be carried out and completed
-by the 1st July 2016.  This will allow the remainder of the work to be the build of the application suite.  The work carried out in
-the prepopratory stage has provided the project with the finished UI.
-
-So with the UI completed and the underlying tools in place, the application will consist of our business logic working with
-loosely-coupled application objects, methods and properties.
-
 
 ## Test Suite
 
@@ -163,11 +154,11 @@ To enable this automation it is envisaged that an automated testing tool such as
 be implemented.
 
 
-## . Deployment Automation
+##  Deployment Automation
 
 TBA.  Depending upon requirements.
 
-## . Support
+##  Support
 
 TBA.  Depending upon requirements.
 
