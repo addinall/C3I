@@ -13,20 +13,18 @@ This is an experimental system comprising
 ![alt text](c3i.png "Sample mapping page")
 
 
-A development stack proposed for C3I that include web sockets, RxJS
+- A development stack proposed for C3I that include web sockets, RxJS
 , React, jQuery 2.x, AJaJ, Bootstrap.
 
-I am having a look at this implementation using web-sockets and coding this as
+- I am having a look at this implementation using web-sockets and coding this as
 an experiment. 
 
-I am interested in this technology as a possible inclusion into future
+- I am interested in this technology as a possible inclusion into future
 builds of my client software.
 
-PHP has not a great reputation for being a good persistant psudo-client side 
+- PHP has not a great reputation for being a good persistant psudo-client side 
 technology to interface to RTOS network systems, so this may help.
 
-I need to design a decent AJaJ API for this project.  The current way of
-doing things is just a heap.
 
 
 I also decided to add the rxJS (Reactive Extensions for Javascript) into this mix so
