@@ -10,6 +10,9 @@ This is an experimental system comprising
 - machine learning and 
 - statistical process control over a distributed network.
 
+![alt text](c3i.png "Sample mapping page")
+
+
 A development stack proposed for C3I that include web sockets, RxJS
 , React, jQuery 2.x, AJaJ, Bootstrap.
 
