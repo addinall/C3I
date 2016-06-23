@@ -12,6 +12,38 @@ This is an experimental system comprising
 
 ![alt text](c3i.png "Sample mapping page")
 
+Satellie communication systems and tracking have always been an interest of mine.  Some exiting stuff
+going on in the world.
+
+> ORBCOMM Inc. (Nasdaq:ORBC) is a global provider of Machine-to-Machine (M2M) communication solutions 
+> and a commercial satellite network dedicated to M2M. ORBCOMM’s unique combination of global satellite, 
+> cellular and dual-mode network connectivity, hardware, web reporting applications, and software is the 
+> M2M industry’s most complete service offering. Our solutions are designed to remotely track, monitor, and 
+> control fixed and mobile assets in core vertical markets including transportation & distribution, 
+> heavy equipment, industrial fixed assets, oil & gas, maritime, mining and government. In addition, 
+> ORBCOMM provides Automatic Identification System (AIS) data services for vessel tracking to improve 
+> maritime safety to government and commercial customers worldwide.
+
+
+> With nearly 20 years of innovation and expertise in M2M, ORBCOMM has more than 1.6 million 
+> subscribers with a diverse customer base including premier OEMs such as Caterpillar Inc., Doosan 
+> Infracore America, Hitachi Construction Machinery Co., Ltd., John Deere, Komatsu Ltd., and Volvo 
+> Construction Equipment, as well as end-to-end solutions customers such as C&S Wholesale, 
+> Canadian National Railways, CR England, Hub Group, KLLM Transport Services, Marten Transport, 
+> Swift Transportation, Target, Tropicana, Tyson Foods, Walmart and Werner Enterprises.
+
+Not a bad space to be in.
+
+> Genscape is a global provider of real-time data and intelligence for commodity and energy markets, 
+> driven to improve market transparency and efficiency. With thousands of patented monitors strategically 
+> deployed worldwide, Genscape is unique in its ability to collect and report proprietary market 
+> fundamentals in real-time or near real-time. Genscape delivers innovative solutions across a number of 
+> asset classes including: Oil, Power, Natural Gas and LNG, Agriculture, Petrochemical and NGLs, 
+> Maritime, and Renewables. Genscape clients often gain important insights, improve risk management, 
+> or increase operational efficiency.
+
+This is my play on using the latest technologies to provide a flexible, robust and pleasing
+UI(X), APIs and RESTFul transaction servers.
 
 - A development stack proposed for C3I that include web sockets, RxJS
 , React, jQuery 2.x, AJaJ, Bootstrap.
@@ -21,9 +53,6 @@ an experiment.
 
 - I am interested in this technology as a possible inclusion into future
 builds of my client software.
-
-- PHP has not a great reputation for being a good persistant psudo-client side 
-technology to interface to RTOS network systems, so this may help.
 
 
 
