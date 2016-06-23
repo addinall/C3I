@@ -15,6 +15,8 @@ This is an experimental system comprising
 Satellie communication systems and tracking have always been an interest of mine.  Some exiting stuff
 going on in the world.
 
+This is from Intelligent Aerospace, July 2016.
+
 > ORBCOMM Inc. (Nasdaq:ORBC) is a global provider of Machine-to-Machine (M2M) communication solutions 
 > and a commercial satellite network dedicated to M2M. ORBCOMM’s unique combination of global satellite, 
 > cellular and dual-mode network connectivity, hardware, web reporting applications, and software is the 
