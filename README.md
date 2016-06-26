@@ -63,21 +63,29 @@ that more control and versitility can be had in asynchronous data stream process
 
 Thinking ahead to 2016 systems (and beyond. 
 
-- Bootstrap UI 	- Responsive UI
-- LESS		- CSS3 pre-processor
-- rxJS    	- Reactive Extensions for Javascript
-- React		- Possible front end framework
-- Rachet	- Web socket implementation for PHP
-- MariaDB	- Open source mySQL
-- LAMP		- Usual stack
+- REact-Bootstrap UI 	- Responsive UI
+- React			- Front end framework
+- LESS			- CSS3 pre-processor
+- rxJS    		- Reactive Extensions for Javascript
+- Rachet		- Web socket implementation for PHP
+- MariaDB		- Open source mySQL
+- LAMP			- Usual stack
+- Bower			- Component management
+- Gulp			- Component management
+- Composer		- Component management
+- Git			- Version control
 
 ### Synopsis:
 
-##  Bootstrap UI
+##  React-Bootstrap UI
 
-In future, this UI can be cascaded again using custom.css to override style`.css).
+*React-Bootstrap* is a library of reusable front-end components. We get the look-and-feel of 
+Twitter Bootstrap, but with much cleaner code, via Facebook's React.js framework.
 
-This has the following benefits.
+#### A better Bootstrap API using React.js
+
+The Bootstrap code is so repetitive because HTML and CSS do not support the abstractions necessary for a nice library of components. That's why we have to write btnthree times, within an element called button.
+The React.js solution is to write directly in Javascript. React takes over the page-rendering entirely. You just give it a tree of Javascript objects, and tell it how state is transmitted between them.
 
 - allows different 'skins' to be versioned per customer
 - allows different 'front page' encounters per product
