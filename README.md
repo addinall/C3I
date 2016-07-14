@@ -26,23 +26,13 @@ This is from Intelligent Aerospace, July 2016.
 > ORBCOMM provides Automatic Identification System (AIS) data services for vessel tracking to improve 
 > maritime safety to government and commercial customers worldwide.
 
+This is one of several concurrent projects I am working on as part of my 2016 R&D.
+Implementing the same application using a number of technology stacks.
 
-> With nearly 20 years of innovation and expertise in M2M, ORBCOMM has more than 1.6 million 
-> subscribers with a diverse customer base including premier OEMs such as Caterpillar Inc., Doosan 
-> Infracore America, Hitachi Construction Machinery Co., Ltd., John Deere, Komatsu Ltd., and Volvo 
-> Construction Equipment, as well as end-to-end solutions customers such as C&S Wholesale, 
-> Canadian National Railways, CR England, Hub Group, KLLM Transport Services, Marten Transport, 
-> Swift Transportation, Target, Tropicana, Tyson Foods, Walmart and Werner Enterprises.
-
-Not a bad space to be in.
-
-> Genscape is a global provider of real-time data and intelligence for commodity and energy markets, 
-> driven to improve market transparency and efficiency. With thousands of patented monitors strategically 
-> deployed worldwide, Genscape is unique in its ability to collect and report proprietary market 
-> fundamentals in real-time or near real-time. Genscape delivers innovative solutions across a number of 
-> asset classes including: Oil, Power, Natural Gas and LNG, Agriculture, Petrochemical and NGLs, 
-> Maritime, and Renewables. Genscape clients often gain important insights, improve risk management, 
-> or increase operational efficiency.
+- Modern, but still AJAX (AJaJ) RESTful client server systems
+- Full stack Javascript systems using Angular
+- Full stack Javascript systems using REact
+- Full stack Javascript systems using custom components
 
 This is my play on using the latest technologies to provide a flexible, robust and pleasing
 UI(X), APIs and RESTFul transaction servers.
