@@ -20,24 +20,24 @@ function initMap() {
   // This example adds a UI control allowing users to remove the polyline from the
   // map.
 
-  var flightPath;
+  var assetPath;
   var map;
 
-  map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('asset_map'), {
     zoom: 3,
-    center: {lat: 0, lng: -180},
+    center: {lat: 0, lng: -180},                                    // this will come from the CONTROL database ase HOME
     mapTypeId: google.maps.MapTypeId.TERRAIN
   });
 
-  var flightPathCoordinates = [
-    {lat: 37.772, lng: -122.214},
-    {lat: 21.291, lng: -157.821},
-    {lat: -18.142, lng: 178.431},
-    {lat: -27.467, lng: 153.027}
+  var assetPathCoordinates = [                                      // the asset co-ordinates are tacked in near real time
+    {lat: 37.772, lng: -122.214},                                   // and served to the UI by the PHP backend
+    {lat: 21.291, lng: -157.821},                                   // in this implementation.  Full Javascript
+    {lat: -18.142, lng: 178.431},                                   // MONGO two way binding in the other implementations
+    {lat: -27.467, lng: 153.027}                                    // of this app.
   ];
 
-  flightPath = new google.maps.Polyline({
-    path: flightPathCoordinates,
+  assetPath = new google.maps.Polyline({
+    path: assetPathCoordinates,
     strokeColor: '#FF0000',
     strokeOpacity: 1.0,
     strokeWeight: 2
@@ -49,20 +49,23 @@ function initMap() {
 
 //------------------
 function addLine() {
-  flightPath.setMap(map);
+
+  assetPath.setMap(map);
 }
 
 
 //---------------------
 function removeLine() {
-  flightPath.setMap(null);
+
+  assetPath.setMap(null);
 }
 
 
 //------------------
-function initMap() {
-// This example adds a user-editable rectangle to the map.
-  var map = new google.maps.Map(document.getElementById('map'), {
+function rectangle() {
+
+
+  var map = new google.maps.Map(document.getElementById('asset_map'), {
     center: {lat: 44.5452, lng: -78.5389},
     zoom: 9
   });
@@ -75,6 +78,7 @@ function initMap() {
   };
 
   // Define a rectangle and set its editable property to true.
+
   var rectangle = new google.maps.Rectangle({
     bounds: bounds,
     editable: true
@@ -83,9 +87,11 @@ function initMap() {
 
 
 //------------------
-function initMap() {
+function animateAsset() {
+
 // This example adds an animated symbol to a polyline.
-  var map = new google.maps.Map(document.getElementById('map'), {
+//
+  var map = new google.maps.Map(document.getElementById('asset_map'), {
     center: {lat: 20.291, lng: 153.027},
     zoom: 6,
     mapTypeId: google.maps.MapTypeId.TERRAIN
@@ -127,12 +133,12 @@ function animateCircle(line) {
   }, 20);
 } 
 
-
+//---------------------
  rectangle.setMap(map);
 }
 
 
-	return {
+	return {                                    // this is the API as presented to the application
 		initMAP : initMAP,
 		draw_line : draw_line,
 		remove_line : remove_line

@@ -30,8 +30,8 @@ This is one of several concurrent projects I am working on as part of my 2016 R&
 Implementing the same application using a number of technology stacks.
 
 - Modern, but still AJAX (AJaJ) RESTful client server systems
-- Full stack Javascript systems using Angular
-- Full stack Javascript systems using REact
+- Full stack Javascript systems using Angular2
+- Full stack Javascript systems using REact/METEOR
 - Full stack Javascript systems using custom components
 
 This is my play on using the latest technologies to provide a flexible, robust and pleasing
@@ -53,7 +53,7 @@ that more control and versitility can be had in asynchronous data stream process
 
 Thinking ahead to 2016 systems (and beyond. 
 
-- REact-Bootstrap UI 	- Responsive UI
+- Bootstrap UI 		- Responsive UI
 - React			- Front end framework
 - LESS			- CSS3 pre-processor
 - rxJS    		- Reactive Extensions for Javascript
@@ -66,6 +66,11 @@ Thinking ahead to 2016 systems (and beyond.
 - Git			- Version control
 
 ### Synopsis:
+
+This implementation of C3I is unusual as it is the only implementation where I still
+use PHP as the back-end language of choice.  All of y other implementations of this
+experiment use Javascript - Full stack.
+
 
 ##  React-Bootstrap UI
 
