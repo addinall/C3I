@@ -38,7 +38,7 @@ This is my play on using the latest technologies to provide a flexible, robust a
 UI(X), APIs and RESTFul transaction servers.
 
 - A development stack proposed for C3I that include web sockets, RxJS
-, React, jQuery 2.x, AJaJ, Bootstrap.
+, jQuery 2.x, AJaJ, Bootstrap.
 
 - I am having a look at this implementation using web-sockets and coding this as
 an experiment. 
