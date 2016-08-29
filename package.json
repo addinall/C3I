@@ -1,0 +1,30 @@
+{
+  "name": "c3i-php-ajax",
+  "version": "1.0.0",
+  "description": "A version of C3I using REACT with a PHP back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addinall/C3I.git"
+  },
+  "keywords": [
+    "REACT",
+    "AJAX",
+    "PHP",
+    "API"
+  ],
+  "author": "Mark Addinall Brisbane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addinall/C3I/issues"
+  },
+  "homepage": "https://github.com/addinall/C3I#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "webpack": "^1.13.2"
+  }
+}
