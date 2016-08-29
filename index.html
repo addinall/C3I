@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+// CAPTAIN SLOG
+// vim: set expandtab tabstop=4 shiftwidth=4 autoindent smartindent:
+// File         : index.html
+// System       : C3I
+// Date         : Apr 20 2016
+// Author       : Mark Addinall
+// Synopsis     : This implementation of C3I uses my most up to date
+//                but traditional PHP AJAJ backend.
+//              
+//                The technology in use in this experiment comprise
+//                - Bootstrap UI
+//                - React JS Client code
+//                - jQuery 2.x
+//                - PHP5
+//
+//
+//
+//
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="C3I Home Page`">
+    <meta name="author" content="Mark Addinall - Brisbane Australia">
+
+    <title>C3I -Command, Control, Communications & Intelligence</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="css/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="css/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body role="document">
+    <div id="react-app">
+    <!--  This is the main DOM element that REACT will bind to on startup -->
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PHP-React-C3I</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" role="main">
+
+
+    <div class="page-header">
+        <h1>Current Alerts</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Alerts Closed</h3>
+            </div>
+            <div class="panel-body">
+               23 closed<br>
+               <a href="#">See more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Alerts Pending</h3>
+            </div>
+            <div class="panel-body">
+               52 Pending<br>
+               <a href="#">See more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Alerts WARNING!</h3>
+            </div>
+            <div class="panel-body">
+               14 Warnings<br>
+               <a href="#">See more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">ALERTS CRITICAL!</h3>
+            </div>
+            <div class="panel-body">
+               3 <em>CRITICAL!</em><br>
+               <a href="#">See more ...</a>
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+            <div id="root"></div>
+        </div>
+        <!-- the map in an iframe is just to let me know where he div is on the
+             page whilst I write the JS.  -->
+
+        <div id="map-holder" class="col-sm-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12655.780374422251!2d153.02082904980662!3d-27.477481831031113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sau!4v1468553552268" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
